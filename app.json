@@ -1,0 +1,7 @@
+{
+    "name": "Aeon web studios",
+    "repository":"https://github.com/aeonwebstudios/AWS.git",
+    "logo": "https://aeonwebstudios.herokuapp.com/node.svg",
+    "keywords":["node","express","static"],
+    "image":"aeonwebstudio/nodejs"
+}
