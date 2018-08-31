@@ -31,5 +31,5 @@ app.use(express.static(path.join(__dirname,	'src')));
 
 
 
-app.listen(5001)
-console.log("server is runing on port 5001");
+app.listen(3002)
+console.log("server is runing on port 3002");

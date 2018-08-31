@@ -17,12 +17,21 @@ body{
 
 }
 
-#home-section{
-    background:url('../img/wel.jpeg') no-repeat;
-    min-height:1300px;
-    background-size:cover;
+/*#home-section2 {
+    background: url("../img/welcome.jpeg") no-repeat;
+    min-height: 1300px;
+    background-size: cover;
     font-size: 20px;
-    background-attachment:fixed;
+    background-attachment: fixed; }
+    #home-section2 .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 1300px; }
+    #home-section2 .home-inner {
+      padding-top: 150px; }
 
 
     .dark-overlay{
@@ -38,12 +47,23 @@ body{
     .home-inner{
         padding-top: 150px;
     
-    }
-    .card-form{
-        opacity: 0.8;
-    }
-}
-  
+    }*/
+    #home-section1 {
+        background: url("../img/welcome.jpeg") no-repeat;
+        min-height: 1300px;
+        background-size: cover;
+        font-size: 20px;
+        background-attachment: fixed; }
+        #home-section1 .dark-overlay {
+          background-color: rgba(0, 0, 0, 0.5);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          min-height: 1300px; }
+
+        #home-section1 .home-inner {
+          padding-top: 150px; }
     
    .fa{
        color: $primary-color;
@@ -57,7 +77,7 @@ body{
 
 #explore-section, #share-section{
     .fa{
-        color:#fff;
+        color:$primary-color;
         background: black;
         padding: 4px;
         border-radius: 5px;
@@ -69,7 +89,7 @@ body{
 #create-section{
     .fa{
         color: $primary-color;
-        background: #fff;
+        background: black;
         padding: 4px;
         border-radius: 5px;
         font-size: $icon-size;

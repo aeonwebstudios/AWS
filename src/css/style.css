@@ -6,43 +6,54 @@ body {
   border-bottom: #008ed6 3px;
   opacity: 0.8; }
 
-
-  #home1-section {
+/*#home-section2 {
     background: url("../img/welcome.jpeg") no-repeat;
     min-height: 1300px;
     background-size: cover;
     font-size: 20px;
     background-attachment: fixed; }
-    #home1-section .dark-overlay {
+    #home-section2 .dark-overlay {
       background-color: rgba(0, 0, 0, 0.5);
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       min-height: 1300px; }
-    #home1-section .home-inner {
+    #home-section2 .home-inner {
       padding-top: 150px; }
 
-      #home2-section {
-        background: url("../img/light.jpeg") no-repeat;
+
+    .dark-overlay{
+        background-color:$dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
         min-height: 1300px;
-        background-size: cover;
-        font-size: 20px;
-        background-attachment: fixed; }
-        #home2-section .dark-overlay {
-          background-color: rgba(0, 0, 0, 0.6);
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          min-height: 1300px; }
-        #home2-section .home-inner {
-          padding-top: 150px; }
-        /*#home-section .card-form {
-          opacity: 0.8; }*/
+    
+    }
+    
+    .home-inner{
+        padding-top: 150px;
+    
+    }*/
+#home-section1 {
+  background: url("../img/welcome.jpeg") no-repeat;
+  min-height: 1300px;
+  background-size: cover;
+  font-size: 20px;
+  background-attachment: fixed; }
 
+#home-section1 .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1300px; }
 
-
+#home-section1 .home-inner {
+  padding-top: 150px; }
 
 .fa {
   color: #008ed6;
@@ -51,17 +62,16 @@ body {
   border-radius: 5px;
   font-size: 30px; }
 
-
-  #explore-section{
-  
+#explore-section .fa, #share-section .fa {
+  color: #008ed6;
+  background: black;
   padding: 4px;
   border-radius: 5px;
-  font-size: 30px; 
-  }
+  font-size: 30px; }
 
 #create-section .fa {
   color: #008ed6;
-  background: #fff;
+  background: black;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
