@@ -1,7 +1,7 @@
-$bg-color:#333;
+$bg-color:rgb(2, 2, 119);
 $font-color:#fff;
 $primary-color:#008ed6;
-$dark-overlay: rgba(0,0,0,0.7);
+$dark-overlay: rgba(0,0,0,0.6);
 $icon-size:30px;
 
 
@@ -17,9 +17,9 @@ body{
 
 }
 
-/*#home-section2 {
-    background: url("../img/welcome.jpeg") no-repeat;
-    min-height: 1300px;
+#home-section2 {
+    background: url("../img/lapgal.jpeg") no-repeat;
+    min-height: 1700px;
     background-size: cover;
     font-size: 20px;
     background-attachment: fixed; }
@@ -29,7 +29,7 @@ body{
       top: 0;
       left: 0;
       width: 100%;
-      min-height: 1300px; }
+      min-height: 1700px; }
     #home-section2 .home-inner {
       padding-top: 150px; }
 
@@ -40,30 +40,65 @@ body{
         top: 0;
         left: 0;
         width: 100%;
-        min-height: 1300px;
+        min-height: 1700px;
     
     }
     
     .home-inner{
         padding-top: 150px;
     
-    }*/
-    #home-section1 {
+    }
+
+    #home-section3{
         background: url("../img/welcome.jpeg") no-repeat;
-        min-height: 1300px;
+        min-height: 1700px;
         background-size: cover;
         font-size: 20px;
         background-attachment: fixed; }
-        #home-section1 .dark-overlay {
+        #home-section3 .dark-overlay {
           background-color: rgba(0, 0, 0, 0.5);
           position: absolute;
           top: 0;
           left: 0;
           width: 100%;
-          min-height: 1300px; }
-
-        #home-section1 .home-inner {
+          min-height: 1700px; }
+        #home-section3 .home-inner {
           padding-top: 150px; }
+    
+    
+        .dark-overlay{
+            background-color:$dark-overlay;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 1700px;
+        
+        }
+        
+        .home-inner{
+            padding-top: 150px;
+        
+        }
+
+    #home-section {
+   background: url("../img/light.jpeg") no-repeat;
+   min-height: 1700px;
+        background-size: cover;
+        font-size: 20px;
+        background-attachment: fixed; }
+        #home-section .dark-overlay {
+          background-color: rgba(0, 0, 0, 0.5);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          min-height: 1700px; }
+
+        #home-section .home-inner {
+          padding-top: 150px; }
+
+
     
    .fa{
        color: $primary-color;
